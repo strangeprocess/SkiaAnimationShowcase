@@ -105,7 +105,7 @@ export const LineChart = () => {
           style="stroke"
           strokeWidth={1}
         />
-        <Path style="stroke" path={path} strokeWidth={4} color="#6231ff" />
+        <Path style="stroke" path={path} strokeWidth={4} color="#10B981" />
       </Canvas>
       <View style={styles.buttonContainer}>
         <Pressable
@@ -136,7 +136,7 @@ const styles = StyleSheet.create({
   },
   buttonStyle: {
     marginRight: 20,
-    backgroundColor: "#6231ff",
+    backgroundColor: "#10B981",
     paddingVertical: 5,
     paddingHorizontal: 20,
     borderRadius: 10,
